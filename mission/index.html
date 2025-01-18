@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="mission.js" defer></script>
 </head>
-<body class="dark">
+<body>
     <header>
         <label for="theme">Select a Theme</label>
-        <select id="theme" name="theme"></select>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
+        <select id="theme" name="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
         <h1>Mission Statement</h1>
         <h2>Brigham Young University-Idaho</h2>
     </header>
@@ -39,7 +40,7 @@
         </ol>
     </main>
     <footer>
-        <img src="byui-logo_blue.webp" alt="logo of BYU-I">
+        <img id="logo" src="byui-logo_blue.webp" alt="logo of BYU-I">
     </footer>
     </body>
 </html>
