@@ -30,20 +30,21 @@ header h1 {
 }
 
 header button {
-    background: none;
-    border: none;
-    color: inherit;
-    font: inherit;
     padding: 0;
     font-size: 140%;
 }
 
-.navigation {
+.menu {
     display: flex;
     flex-direction: column;
     padding: 10%;
     margin-bottom: 10%;
     padding-top: 0;
+    list-style: none;
+}
+
+.hide {
+    display: none;
 }
 
 a:link, a:visited {
@@ -64,7 +65,40 @@ main {
     grid-template-columns: 1fr;
 }
 
+.viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    color: var(--text-light);
+    z-index: 10;
+    justify-items: center;
+    align-items: center;
+}
 
+.close-viewer {
+    font-size: 2em;
+    color: var(--text-light);
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.viewer img {
+    max-height: 90%;
+    max-width: 90%;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    box-sizing: border-box;
+}
 
 img {
     max-width: 100%;
@@ -84,9 +118,20 @@ footer {
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
-    .navigation {
+    /* .menu {
         display: none;
-    }
+    } */
+     .viewer img {
+        max-width: 90%;
+        max-height: 90%;
+        align-self: center;
+        justify-self: center;
+        padding: 20px;
+        box-sizing: border-box;
+     }
+     .viewer {
+        padding: 20px;
+     }
 }
 
 @media screen and (min-width: 1000px){
@@ -97,15 +142,32 @@ footer {
     .gallery{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .navigation {
-        display: contents;
+    .menu {
+        display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
-    .navigation a {
+    .menu li {
         margin-right: 50px;
+        margin-left: 50px;
     }
-    header button {
+    .viewer {
+        grid-template-rows: 1fr auto;
+        align-items: center;
+        padding: 20px; /* Add padding around the viewer for larger screens */
+      }
+    
+      .viewer img {
+        max-width: 80%;
+        max-height: 80%;
+        padding: 20px;
+        align-self: center;
+        justify-self: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    /* header button {
         display: none;
-    }
+    } */
 }
