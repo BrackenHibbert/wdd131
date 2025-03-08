@@ -12,6 +12,12 @@
     />
     <link rel="stylesheet" href="recipes.css" />
     <link rel="icon" href="favicon.png" type="image">
+    <meta property="og:title" content="Recipe Book">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Many delicous recipes for you to try!">
+    <meta property="og:image" content="images/recipe-book.png">
+    <meta property="og:url" content="https://brackenhibbert.github.io/wdd131/Recipes/index.html">
+    <meta name="twitter:card" content="summary_large_image">
     <script type="module" src="main.mjs" defer></script>
 </head>
 <body>
@@ -29,33 +35,36 @@
     <main>
         <div class="recipe">
             <img src="images/sweet-potato-waffle-md.jpg" alt="Image of sweet potato waffle">
-            <div class="tags">
-                <p>Waffles</p>
-                <p>Sweet Potatoes</p>
-                <p>Sides</p>
+            <div class="content">
+                <div class="tags">
+                    <p>Waffles</p>
+                    <p>Sweet Potatoes</p>
+                    <p>Sides</p>
+                </div>
+                <h1>Sweet Potato Waffles</h1>
+                <span
+                    class="rating"
+                    role="img"
+                    aria-label="Rating: 4 out of 5 stars"
+                >
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="description">Savory waffles made with Sweet potato with a hint of Ginger.</p>
             </div>
-            <h1>Sweet Potato Waffles</h1>
-            <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-            >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-            </span>
         </div>
     </main>
     <footer>
-        href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
         <div class="social">
             <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
             <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
             <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
             <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
         </div>
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons" class="social">Recipe icons created by Freepik - Flaticon</a>
     </footer>
 </body>
 </html>

@@ -82,9 +82,72 @@ header img {
 
 .recipe h1 {
     color: var(--primary-color);
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .rating {
     margin: 5%;
+    margin-top: 3%;
+}
+
+.description {
+    display: none;
+}
+
+.social  {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    display: inline;
+    width: 50px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 600px){
+    .recipe {
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .recipe img {
+        width: 30%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tags {
+        display: flex;
+    }
+
+    .tags p {
+        font-size: 15px;
+    }
+
+    .recipe h1 {
+        font-size: 40px;
+        margin: 0;
+        margin-right: 0px;
+
+    }
     
+    .rating {
+        flex-wrap: wrap;
+    }
+
+    .description {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 960px){
+    body {
+        max-width: 961px;
+        margin: 0 auto;
+    }
 }
