@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #250902;
+    --secondary-color: #856a5d;
+    --accent-color1: #fffbfe;
+    --accent-color2: #779fa1;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --heading-font: Verdana, Geneva, Tahoma, sans-serif;
+    --secondary-font: Arial, Helvetica, sans-serif;
+    }
+
+    /* Header */
+
+
+header {
+    display: flex;
+}
+
+.header-logo {
+    height: 200px;
+}
+
+.navigation {
+    font-size: 40px;
+    border: 2px solid;
+    width: 100%;
+    align-self: center;
+    padding: 3%;
+    background-color: var(--primary-color);
+    color: var(--accent-color1);
+}
+
+.navigation a {
+    color: var(--accent-color1);
+    padding: 5%;
+}
+
+    /* Main Page */
+
+.main-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 2px solid;
+    margin: 5px;
+    gap: 10px;
+}
+
+#countdown {
+    grid-column: 1;
+    grid-row: span 2;
+    border: 2px solid;
+    height: 300px;
+    margin: 3%;
+    background-color: var(--accent-color2);
+    text-align: center;
+}
+
+#wedding-date {
+    grid-column: 2;
+    grid-row: span 2;
+    border: 2px solid;
+    margin: 3%;
+    background-color: var(--accent-color2);
+    text-align: center;
+}
+
+#missouri-reception {
+    grid-column: 3;
+    grid-row: 1;
+    border: 2px solid;
+    margin: 3%;
+    background-color: var(--accent-color2);
+    text-align: center;
+}
+
+#oregon-reception {
+    grid-column: 3;
+    grid-row: 2;
+    border: 2px solid;
+    margin: 3%;
+    background-color: var(--accent-color2);
+    text-align: center;
+}
+
+.registery {
+    font-size: xx-large;
+    align-content: center;
+    margin: 3%;
+    padding: 0;
+    text-align: center;
+}
+
+    /* Our Story */
+
+    #main-story {
+        display: flex;
+    }
+
+    #main-story img {
+        width: 100%;
+        height: 100%;
+        margin: 4%;
+        margin-top: 8%;
+    }
+
+    #our-story {
+        border: 2px solid;
+        padding: 4%;
+        margin: 4%;
+        font-size: large;
+    }
+
+    #our-story h1 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    /* Our Adventures */
+
+    #adventure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    #slide {
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+    
+
+    /* Footer */
+
+.footer img {
+    width: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.madie-links {
+    padding: 3%;
+}
+
+.bracken-links {
+    padding: 3%;
+}
+
