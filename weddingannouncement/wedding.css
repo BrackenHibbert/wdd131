@@ -56,6 +56,10 @@ header {
     text-align: center;
 }
 
+#countdown p {
+    font-size: 20px;
+}
+
 #wedding-date {
     grid-column: 2;
     grid-row: span 2;
@@ -83,13 +87,26 @@ header {
     text-align: center;
 }
 
+#registery-section {
+    align-content: center;
+    text-align: center;
+}
+
 .registery {
     font-size: xx-large;
-    align-content: center;
     margin: 3%;
     padding: 0;
     text-align: center;
-}
+    text-decoration: none; /* Remove the default underline */
+    font-weight: bold; /* Make the text bold */
+    background-color: var(--accent-color2); /* Add a background color (customize it as needed) */
+    padding: 10px 15px; /* Add padding for a button-like appearance */
+    border-radius: 5px; /* Round the corners */
+    display: inline-block; /* Make it look like a button */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    color: #250902;
+    line-height: 1;
+    }
 
     /* Our Story */
 
@@ -98,8 +115,8 @@ header {
     }
 
     #main-story img {
-        width: 100%;
-        height: 100%;
+        width: 20%;
+        height: 20%;
         margin: 4%;
         margin-top: 8%;
     }
