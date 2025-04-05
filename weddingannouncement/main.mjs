@@ -1,4 +1,4 @@
-import { adventures } from '/weddingannouncement/adventures.mjs';
+import { adventures } from './adventures.mjs';
 
 // Slideshow Variables and Functions
 let currentIndex = 0;
