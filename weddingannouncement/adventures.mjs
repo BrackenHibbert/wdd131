@@ -1,7 +1,7 @@
 export const adventures = [
     {
         image: 'images/byui-datenight.jpg',
-        title: 'BYU_I Datenight',
+        title: 'BYUI Datenight',
         description: ['Every semester, BYU-I hosts a datenight where all it takes to be let in is a date. We went with our friends Peter',
         'and Paige. While there we watched a musical concert, played pickleball, painted pictures of each other, and saw a lot of other',
         'friends that are here at school with us. This was at the begining of the semester and was a great way we got closer to each other.'
