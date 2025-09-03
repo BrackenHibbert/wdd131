@@ -34,7 +34,7 @@ export function navigateSlides(direction) {
 }
 
 // Countdown Variables and Functions
-const targetDate = new Date("2025-08-16T10:00:00").getTime(); // August 16 at 10AM
+const targetDate = new Date("2025-11-29T10:00:00").getTime(); // August 16 at 10AM
 
 function updateCountdown() {
     const countdownContainer = document.getElementById('countdown');

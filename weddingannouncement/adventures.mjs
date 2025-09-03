@@ -90,5 +90,49 @@ export const adventures = [
         'and sharing snacks. On the way home from one of these trips we were able to briefly stop by twin falls and see the large canyons that',
         'that area is known for.'
         ],
-    }
+    },
+    {
+        image: 'images/bear-lake.jpg',
+        title: 'Bear Lake',
+        description: ['We were able to spend a Saturday at Bear Lake with some of Madies extended family and we had so much fun swimming, winning',
+        'the sand castle competition with our pyramids, and getting a bit burnt in the sun. Would recommened going there to anyone!'
+        ],
+    },
+    {
+        image: 'images/Cookie Datenight.jpg',
+        title: 'Cookie Date Night',
+        description: ['We had so much fun molding cookie dough into different shapes and watching how funny they looked after expanding in the oven.',
+        'Our favorite shapes we did were definitely the dinosaurs and farm animals. They were so funny looking and it had us cracking up when they came out.'
+        ],
+    },
+    {
+        image: 'images/Engagement Night.jpg',
+        title: 'Night we got Engaged',
+        description: ['Bracken engaged with a beautiful view of the sunset, one of Madies favorite things, and it was such a special night!',
+        'We loved being able to go and tell people that we were finally engaged and this silly picture was taken by one of Madies best friends',
+        'After we told her the exciting news!'
+        ],
+    },
+    {
+        image: 'images/Engagement Photo.jpg',
+        title: 'Engagement Photo',
+        description: ['Our good friend Suzi helped us take engagement photos the day after and they turned out so great! We had so much fun taking',
+        'these photos and loved how they turned out!'
+        ],
+    },
+    {
+        image: 'images/Summer Camping.jpg',
+        title: 'Summer Camping',
+        description: ['Bracken and Madie joined Brackens family for a fun 4-day off the grid camping trip that they do every year to celebrate one of',
+        'his uncles birthdays. This was a great opportunity that everyone in Brackens extended family got to know Madie really well and we had so much',
+        'fun being away from everything and enjoying the outdoors!'
+        ],
+    },
+    {
+        image: 'images/Yellowstone.jpg',
+        title: 'Yellowstone',
+        description: ['Madie got to go to yellowstone for the first time with Bracken and his family in the late spring and we had so much fun seeing',
+        'the beautiful sights and making even more memories together!'
+        ],
+    },
 ];

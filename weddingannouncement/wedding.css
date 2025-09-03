@@ -2,7 +2,7 @@
     --primary-color: #250902;
     --secondary-color: #856a5d;
     --accent-color1: #fffbfe;
-    --accent-color2: #779fa1;
+    --accent-color2: #4a6741;
     --text-dark: #333;
     --text-light: #ebebeb;
     --heading-font: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,6 +54,7 @@ header {
     border: 2px solid;
     margin: 5px;
     gap: 10px;
+    color: white;
 }
 
 #countdown {
@@ -114,7 +115,7 @@ header {
     border-radius: 5px; /* Round the corners */
     display: inline-block; /* Make it look like a button */
     transition: background-color 0.3s ease; /* Smooth transition effect */
-    color: #250902;
+    color: white;
     line-height: 1;
     }
 
